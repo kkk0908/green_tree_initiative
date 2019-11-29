@@ -1,0 +1,960 @@
+
+.container {
+    display: flex;
+    
+    
+    flex-direction: column;
+    padding: 1em;
+    box-sizing: border-box;
+}
+.header {
+    display: flex;
+
+    width: 100%;
+   
+    padding:0em 0em;
+   
+}
+.header-1st {
+    display: flex;
+   
+    width: 80%;
+    
+    
+}
+.header-2nd {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    width: 20%;
+    
+}
+.donate {
+    
+    display: flex;
+    justify-content: center;
+    
+    color:#354463;
+    
+    width: 66%;
+    outline: none;
+    height:  25%;
+   border-radius: 1em;
+    align-items: center;
+    font: Bold 90%/80% Helvetica;
+    background-color:#C1F7D5;
+}
+.logo {
+    display: flex;
+     
+    width: 29%;
+    justify-content: center;
+    
+    align-items: center;
+    
+}
+#logo-quote {
+    display: flex;
+     
+     align-items: center;
+    width: 55%;
+    min-width: 52%;
+    
+    font: Bold 150%/120% Helvetica;
+    color: #354463;
+}
+.menu {
+    display: flex;
+    width: 69%;
+    align-items: center;
+    
+    
+    justify-content: space-around;
+    /* margin-left: 10%; */ 
+}
+a {
+    text-decoration: none;
+    color:  #354463;
+}
+.about {
+    display: flex;
+    justify-content: center;
+    /* border: 3px dotted orange;  */
+    height: 17%;
+    width: 22%;
+    color: #354463;
+    font: Light 10% Helvetica;
+}
+.story {
+    display: flex;
+    /* border: 3px dotted orange;  */
+    justify-content: center;
+    height: 17%;
+    width: 21%;
+    color: #354463;
+    font: Light 10% Helvetica;
+}
+.news {
+    display: flex;
+    /* border: 3px dotted orange;  */
+    justify-content: center;
+    height: 17%;
+    width: 30%;
+    color: #354463;
+    font: Light 1em/1em Helvetica;
+}
+
+.hero {
+    display: flex;
+    
+     
+     justify-content: space-between;
+
+    background-image: url(./assets/home/hero.png);
+    background-size: cover;
+    background-position: center;
+    
+    padding: 3em 4em;
+   
+    
+
+}
+.hero__content {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    
+
+    /* border: 3px dotted red; */
+} 
+
+#hero-quote {
+    /* border:3px dotted red; */
+    width: 30%;
+    margin-top: 0%; 
+    font-size: 450%;
+    margin-right: 15%; 
+    font-family: flood-std, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    
+} 
+.hero__climate-change {
+    position: relative;
+    display: flex;
+    padding:2em;
+
+    /* border:3px solid red; */
+    
+    padding: 0%;
+    width: 35%;
+    
+    flex-direction: column;
+    
+    background-color: white;
+    justify-content:space-between;
+    align-items: center;
+    
+   
+    
+}
+.climate-change {
+  
+    /* border: 3px dotted blue; */
+    
+    width:83%;
+    
+    font: Bold 210%/110% Helvetica;
+    color: #354463;
+}
+.know-more {
+    display: flex;
+    justify-content: center;
+    color:#344463;
+
+    width: 85%;
+    margin: 2em 0em;
+    
+    font: Light .1%/1% Helvetica;
+    /* border: 3px dotted blue; */
+}
+.badge {
+    
+    position: relative;
+    top:-33px;
+    display: flex;
+    align-self: flex-end;
+    margin-left: 12%; 
+    height: 2em; 
+    align-self: flex-start;
+    align-items: center;
+    text-align: center;
+    width: 5em;
+    color:white;
+    background-color: #344463;
+    /* border: 3px dotted blue; */
+}
+.take-action {
+    position: relative;
+    /* border: 3px dotted blue; */
+    background-color: #C1F7D5;
+    padding:0em 4em;
+
+    box-sizing: border-box;
+}
+.take-action__badge {
+    /* border: 3px dotted blue; */
+    position: absolute;
+    display: flex;
+    left: 43%;
+    right: 50%;
+    top: -1.6em;
+    
+    width: 9em;
+    height: 1.5em;
+    color: white;
+    background-color: #344463;
+
+    
+    
+    align-items: center;
+    justify-content: center;
+    font: Regular 14px/17px Helvetica;
+    letter-spacing: 0.56px;
+}
+.take-action__content {
+    display: flex;
+    /* border: 3px dotted rebeccapurple; */
+    justify-content: space-between;
+
+    align-items: center;
+    font: Light 16px/24px Helvetica;
+    color: #344463;
+    
+    
+}
+
+
+.take-action__content__items{
+    /* border:3px solid green; */
+    width: 22%;
+    
+    
+}
+
+
+.take-action__content__items__heading {
+    font: Bold 24px/32px Helvetica;
+}
+
+
+
+
+.what-we-do {
+    background-color: #344463;
+    /* border:3px dotted red; */
+    padding:1em 3em 3em 3em;
+
+}
+.what-we-do__badge {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    color: #344463;
+    
+    width: 9em;
+    padding: .5em;
+    font: Regular 5%/17% Helvetica;
+    box-sizing: border-box;
+    
+}
+.what-we-do__heading {
+    font:Bold 260%/100% Helvetica;
+    color: white;
+    /* border:2px dotted red; */
+    text-align: justify;    
+}
+.what-we-do__content {
+    display: flex;
+    /* border:2px dotted red; */
+    justify-content: space-between;
+    margin-top: 6em;
+    
+    
+    
+}
+.what-we-do__content__items {
+    display: flex;
+    flex-direction: column;
+    /* border:2px dotted green; */
+    justify-content: space-between;
+    width: 25%;
+    padding: 2em;
+    box-sizing: border-box;
+    /* margin-left: 0em 8em; */
+    /* padding: 1em; */
+    background-color: white;
+}
+.what-we-do__content__items__image__tree-planting {
+    background-color: aqua;
+    /* border: 3px dotted red; */
+    height: 10em;
+    background-image: url(./assets/home/tree-planting.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin-right: -4em;
+    margin-top: -4em;
+
+    /* margin-left: 10%; */
+}
+
+.what-we-do__content__items__image__education {
+    background-color: aqua;
+    /* border: 3px dotted red; */
+    height: 10em;
+    background-image: url(./assets/home/education-training.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin-right: -4em;
+    margin-top: -4em;
+
+    /* margin-left: 10%; */
+}
+
+.what-we-do__content__items__image__advocacy {
+    background-color: aqua;
+    /* border: 3px dotted red; */
+    height: 10em;
+    background-image: url(./assets/home/advocacy.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin-right: -4em;
+    margin-top: -4em;
+
+    /* margin-left: 10%; */
+}
+.what-we-do__content__items__content {
+    display: flex;
+    flex-direction: column;
+    /* border: 3px dotted gray; */
+    justify-content: space-around;
+    padding: 1em 0%;
+    
+}
+.what-we-do__content__items__content__heading {
+    /* border: 3px dotted red; */
+    width: 40%;
+    font:Bold 128%/100% Helvetica;
+    color: #344463;
+}
+.what-we-do__content__items__content__paragraph {
+    /* border: 3px dotted red; */
+    width: 60%;
+
+}
+.what-we-do__content__items__read-more {
+    /* border: 3px dotted red; */
+    background-color: #C1F7D5;
+    /* width: 70%; */
+    white-space: nowrap;
+    font: Bold 108%/122% Helvetica;
+    color:#344463;
+    outline: none;
+    border-radius: 3em;
+}
+
+.did-you-know {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    justify-content: space-between;
+    padding: 3em;
+    background-color: aqua;
+    background-image: url(./assets/home/did-you-know-background.png);
+    background-position: center;
+    /* border:2px solid red; */
+    background-size:cover;
+    background-repeat: no-repeat;
+
+}
+.did-you-know__badge {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border:2px solid red; */
+    position: absolute;
+    top:4%;
+    white-space: nowrap;
+    padding: 0.5em;
+    color:white;
+    background-color: #344463;
+    font:Regular 14%/17% Helvetica;
+    letter-spacing: 0.56%;
+    text-align: center;
+   
+    
+}
+
+ 
+.did-you-know__tagline {
+    /* border:2px solid red;     */
+    width: 24%;
+}
+.did-you-know__tagline__quote {
+    /* border:2px solid green; */
+    font-size: 350%;
+     
+    font-family: flood-std, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+.did-you-know__tagline__take-action {
+    background-color: #C1F7D5;
+    
+    margin-top: 10%;
+    white-space: nowrap;
+    padding: 0.5em;
+    
+    
+    font: Bold 108%/122% Helvetica;
+    color:#344463;
+    outline: none;
+    border-radius: 2em;
+}
+.did-you-know__facts {
+    /* border:2px solid red; */
+    width: 40%;
+    margin-top:1em;
+    
+}
+.did-you-know__facts__items {
+    /* border:2px solid red; */
+    display: flex;
+    color: #354463;
+    justify-content: space-between;
+    padding: 1.2em;
+    background-color: white;
+    margin-bottom: 1.5em;
+}
+.did-you-know__facts__items__contents {
+    /* border:2px solid red; */
+    width: 55%;
+    /* padding: 1em; */
+    display: flex;
+    flex-direction: column;
+    
+}
+.did-you-know__facts__items__contents__heading  {
+    /* border:2px solid red; */
+    /* margin-top: -.5em; */
+    white-space: nowrap;
+    font:Bold 194%/56% Helvetica;
+}
+.did-you-know__facts__items__contents__para {
+    /* border:2px solid red; */
+    margin-top: -1em;
+    
+}
+.did-you-know__facts__items__pics {
+    /* border:2px solid blue; */
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    
+}
+.did-you-know__facts__items__pics__twitter {
+    display: flex;
+    padding: .1em;
+    background-color: #C1F7D5;
+    border-radius: 50%;
+    align-items: center;
+    
+    justify-content: center;
+
+}
+
+.did-you-know__facts__items__pics__facebook {
+    display: flex;
+    padding: 0.1em;
+    background-color: #C1F7D5; 
+    margin-top: 30%;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+
+
+/* ************ for Tablet ****************************/
+
+@media screen and (max-width:660px){
+   
+.header-1st {
+    flex-direction: column;
+    justify-content: space-around;
+    /* border:3px dotted red; */
+}
+#logo-quote {
+    /* border:3px dotted red; */
+    justify-content:center;
+    width: 100%;
+}
+.logo {
+    margin-left: 4%;
+    /* border:3px dotted red; */
+    width: 35%;
+    height: 40%;
+    
+}
+.donate {
+    margin-left: 0%;
+    margin-right: 10%;
+    height: 20%;
+    width: 180%;
+    outline: none;
+    font: Bold 70%/10% Helvetica;
+}
+.menu {
+    /* border:3px dotted red; */
+    justify-content: space-around;
+    
+}
+.about {
+    /* border:2px dotted red; */
+    height: 50%;
+}
+.story {
+    /* border:2px dotted red; */
+    width: 30%;
+    height: 50%;
+}
+.news {
+    /* border:2px dotted red; */
+    height: 50%;
+    width: 36%;
+}
+.hero {
+    /* border: 2px dotted red; */
+    height: 30%;
+    padding: 2em 1em;
+    background-image: url(./assets/home/hero.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+}
+.hero__content {
+    flex-direction: column-reverse;;
+    /* border:3px double red; */
+}
+
+.hero__climate-change {
+    /* border: 3px dotted blue;  */
+    width: 100%;
+    margin-left: 0%;
+    
+}
+
+
+
+.know-more {
+    display: flex;
+    justify-items: flex-start; 
+    
+    
+    /* border: 3px dotted blue; */
+}
+.badge {
+    /* margin-top: 14%; */
+    align-items: center;
+    justify-content: center;
+  
+    width: 25%;
+    
+}
+
+
+#hero-quote {
+    display: flex;
+    align-self: flex-start;
+    margin-right: 0%;
+    font-size: 2em;
+    /* border: 4px dotted green; */
+    font-family: flood-std, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+.take-action {
+    /* border:2px solid red; */
+    padding: 0em 1em; 
+}
+.take-action__content {
+    margin: 2em 0em;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+    /* border:2px solid red; */
+}
+
+.take-action__content__items {
+    /* border:2px solid red; */
+    width: 47%;
+}
+
+.take-action__content__items__para {
+    /* border:2px solid red; */
+    margin-bottom: 2em;
+    letter-spacing: 0.2em;
+}
+
+.what-we-do__content {
+    flex-direction: column;
+}
+.what-we-do__content__items {
+    position: relative;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-items: flex-start;
+    margin-bottom: 4em;
+    /* border:3px dotted red; */
+
+}
+.what-we-do__content__items__image__tree-planting {
+    /* border:3px dotted red; */
+    width: 45%;
+    margin-left: 0%;
+}
+.what-we-do__content__items__image__education {
+    /* border:3px dotted red; */
+    width: 45%;
+    margin-left: 0%;
+}
+.what-we-do__content__items__image__advocacy {
+    /* border:3px dotted red; */
+    width: 45%;
+    margin-left: 0%;
+}
+.what-we-do__content__items__content{
+    display: flex;
+    
+    /* justify-content: center; */
+    flex-direction: column;
+    /* border:3px dotted red; */
+    width: 40%;
+    /* padding-left: 0em;
+    padding-top: 0em; */
+}
+.what-we-do__content__items__content__heading {
+    /* border:3px dotted red; */
+    width:80%;
+}
+.what-we-do__content__items__content__paragraph {
+    /* border:3px dotted red; */
+    width: 100%;
+}
+.what-we-do__content__items__read-more {
+    position: absolute;
+    top: 70%;
+    left: 15%;
+    width: 35%;
+    /* border:3px dotted red; */
+    align-items: center;
+
+}
+
+
+    
+
+.did-you-know {
+    background-color: aqua;
+    background-image: url(./assets/home/did-you-know-background.png);
+    background-position: left;
+    
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.did-you-know__badge {
+    
+    left:50%;
+}
+.did-you-know__tagline {
+    /* border:3px dotted red;  */
+    width: 35%;
+    
+}
+.did-you-know__tagline__quote {
+    font-size: 250%;
+    /* border:3px dotted greenyellow;  */
+    width: 100%;
+    font-family: flood-std, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+/* .did-you-know__tagline__take-action {
+    width: 90%;
+    height: 5%;
+} */
+.did-you-know__facts {
+    /* border:3px dotted greenyellow;  */
+    width: 60%;
+}
+
+.did-you-know__facts__items__contents {
+    /* border:3px dotted blueviolet; */
+    width: 90%;
+    padding: 0px; 
+    margin-top: 1em;
+}
+}
+
+/* for mobile */
+@media screen and (max-width:520px){
+    
+.menu {
+ flex-direction: column;
+ 
+ width: 50%;
+ 
+ align-items: center;
+}
+.header {
+    flex-direction: column;
+    
+    
+    padding: 1%;
+}
+.header-1st {
+    flex-direction: row;
+    width: 100%;
+    align-content: space-around;
+    /* border:3px dotted red; */
+   
+}
+.logo {
+   display: flex;
+    /* border:3px dotted green; */
+    width: 50%;
+   
+    justify-content: center;
+  
+}
+#logo-quote {
+    display: flex;
+    /* border: 3px dotted orange; */
+    align-items: center;
+    width: 65%;
+    
+    font: Bold 140%/100% Helvetica;
+    color: #354463;
+}
+.about {
+    display: flex;
+    /* border: 3px dotted orange; */
+    width: 50%;
+    justify-content: flex-start;
+    text-align: start;
+}
+.story {
+    display: flex;
+    /* border: 3px dotted orange; */
+    justify-content: flex-start;
+    width: 50%;
+}
+.news {
+    display: flex;
+    justify-content: flex-start;
+    /* border: 3px dotted orange; */
+    width: 50%;
+}
+
+.donate {
+    margin-left: auto; 
+    margin-right: auto;
+   margin-top:0%;
+    width: 75%;
+    /* border: 3px dotted orange; */
+    align-items: center;
+    font: Bold 140%/1em Helvetica;
+    justify-content: center;
+}
+.header-2nd {
+    width: 100%;
+    align-items: center;
+    /* border: 3px dotted red; */
+
+}
+
+
+.hero__content {
+    width: 100%;
+    
+    /* border:2px dotted green; */
+
+}
+.hero__climate-change {
+    display: flex;
+    /* border:2px dotted green; */
+    justify-content: center;
+    margin-top:3em;
+}
+.climate-change {
+
+    
+    width: 85%;
+    font: Bold 180%/100% Helvetica;
+    text-align: center;
+    
+    
+}
+.badge {
+      
+    /* border: 3px dotted blue; */
+     margin-left: auto;
+     margin-right: auto;
+    
+    
+    width: 45%;
+    align-items: center;
+
+}
+.know-more {
+    width: 60%;
+    text-align: center;
+}
+.take-action__badge {
+    left:9em;
+    top: -2.3em;
+    
+    height: 2.5em;
+}
+.take-action__content__items {
+    /* border : 3px solid red; */
+    width: 37%;
+}
+.what-we-do {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+}
+.what-we-do__content {
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-between;
+    margin-top:5em;
+    box-sizing: border-box;
+}
+.what-we-do__badge {
+    width: 67%;
+    position: absolute;
+    top: -2.1em;
+    
+}
+.what-we-do__heading {
+    /* border : 3px solid red; */
+    font:Bold 180%/110% Helvetica;
+    text-align: center;
+    width: 100%;
+}
+.what-we-do__content__items {
+    display: flex;
+    
+    /* border:3px solid red; */
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 2em;
+    padding-bottom: 3em;
+    /* justify-content: center; */
+    
+}
+.what-we-do__content__items__image__tree-planting {
+    /* border:3px solid red; */
+    margin-left: 0%;
+    margin-right: 0%;
+    width: 90%;
+}
+.what-we-do__content__items__image__education {
+    /* border:3px solid red; */
+    margin-left: 0%;
+    margin-right: 0%;
+    width: 90%;
+}
+.what-we-do__content__items__image__advocacy {
+    /* border:3px solid red; */
+    margin-left: 0%;
+    margin-right: 0%;
+    width: 90%;
+}
+.what-we-do__content__items__content {
+    display: flex;
+    /* border:3px solid red; */
+    align-items: center;
+    padding-left:0em;
+    /* justify-content: center; */
+    width: 80%;
+}
+.what-we-do__content__items__content__heading {
+    /* border:3px solid red; */
+    text-align: center;
+    width: 124%;
+}
+.what-we-do__content__items__content__paragraph {
+    text-align: center;
+    /* border:3px solid red; */
+}
+.what-we-do__content__items__read-more {
+    top: 18em;
+    width: 60%;
+    position: absolute;
+}
+
+.did-you-know {
+    /* border:3px solid salmon; */
+    flex-direction: column;
+    background-color: aqua;
+    background-image: url(./assets/home/did-you-know-background.png);
+    background-position: left;
+    
+    background-size:cover;
+    background-repeat: no-repeat;
+    margin-bottom: 2em;
+}
+.did-you-know__badge {
+   position: absolute;
+   left:27%;
+   top: -17%;
+}
+.did-you-know__facts__items {
+    position: relative;
+}
+.did-you-know__tagline {
+    /* border:3px solid salmon; */
+    width: 55%;
+}
+.did-you-know__facts {
+    /* border:3px solid salmon; */
+    width: 100%;
+    margin-top:2em;
+}
+.did-you-know__facts__items__contents {
+    /* border:3px solid salmon; */
+    width:80%;
+    margin-top: 2em;
+    
+}
+}
+

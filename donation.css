@@ -1,0 +1,437 @@
+
+.header {
+    display: flex;
+    width:100%;
+    justify-content: center;
+    /* border:2px dotted red; */
+}
+.header__logo {
+    font: Bold 228%/100% Helvetica;
+    color: #354463;
+
+    width:20%;
+    /* border:2px dotted red; */
+    
+}
+.container {
+    display: flex;
+    margin:2em;
+    padding: 2em 4em 4em 4em;
+    /* border:2px dotted red; */
+    background-image: url(./assets/donation/annie-spratt-427340-unsplash.png);
+    background-size: cover;
+    background-position: center;
+    justify-content: space-between;
+    
+    box-sizing: border-box;
+}
+.container__quotes {
+    color:white;
+    margin-top:-.1em;
+    font-family: flood-std,sans-serif;
+    font-weight: 400;
+     font-style: normal;
+     font-size: 300%;
+     width:25%;
+     /* border:2px dotted red; */
+}
+.container__form {
+    width:60%;
+    box-sizing: border-box;
+    padding: 2em;
+    color:white;
+    /* border:2px dotted green; */
+    background-color: #354463;
+}
+.container__form__body {
+    display: flex;
+    flex-direction: column;
+    /* border:2px dotted red; */
+}
+
+/* input,select {
+    color: #C1F7D5;
+    background-color: #354463;
+    width: 100%;
+    border-bottom-style: 2px solid #C1F7D5;
+    border-left-style:none;
+    border-right-style:none;
+    border-top-style:none;
+} */
+.form__name {
+    /* border:2px dotted yellow; */
+    display: flex;
+    color: white;
+    justify-content: space-between;
+}
+.form__name__first__block{
+    width:40%;
+}
+.form__name__last__block {
+    width:40%;
+}
+.form__name__first {
+    width:100%;
+    /* border:2px dotted yellow; */
+    color:#C1F7D5;
+    background-color: #354463;
+    width: 100%;
+    border-bottom-style: 2px solid #C1F7D5;
+    border-left-style:none;
+    border-right-style:none;
+    border-top-style:none;
+}
+.form__name__last {
+    width:100%;
+    color:#C1F7D5;
+    background-color: #354463;
+    
+    border-bottom-style: 2px solid #C1F7D5;
+    border-left-style:none;
+    border-right-style:none;
+    border-top-style:none;
+}
+.form__street-address {
+    width:100%;
+    color:#C1F7D5;
+    background-color: #354463;
+    
+    border-bottom-style: 2px solid #C1F7D5;
+    border-left-style:none;
+    border-right-style:none;
+    border-top-style:none;
+}
+
+.form__major-address {
+    display: flex;
+    white-space: nowrap;
+    justify-content: space-between;
+}
+.form__major-address__city__block {
+     width: 35%;
+}
+
+.form__major-address__state__block {
+    width: 20%;
+}
+
+.form__major-address__zip__block {
+    width: 35%;
+}
+.form__major-address__city {
+    width:100%;
+    color:#C1F7D5;
+    opacity: 1;
+    background-color: #354463;
+    
+    border-bottom-style: 2px solid #C1F7D5;
+    border-left-style:none;
+    border-right-style:none;
+    border-top-style:none;
+}
+.form__major-address__state {
+    width:100%;
+    color:#C1F7D5;
+    background-color: #354463;
+    
+    border-bottom-style: 2px solid #C1F7D5;
+    border-left-style:none;
+    border-right-style:none;
+    border-top-style:none;
+}
+.form__major-address__zip {
+    width:100%;
+    color:#C1F7D5;
+    background-color: #354463;
+    
+    border-bottom-style: 2px solid #C1F7D5;
+    border-left-style:none;
+    border-right-style:none;
+    border-top-style:none;
+}
+.form__email {
+    width:100%;
+    color:#C1F7D5;
+    background-color: #354463;
+    
+    border-bottom-style: 2px solid #C1F7D5;
+    border-left-style:none;
+    border-right-style:none;
+    border-top-style:none;
+}
+.form__card {
+    width:100%;
+    color:#C1F7D5;
+    background-color: #354463;
+    
+    border-bottom-style: 2px solid #C1F7D5;
+    border-left-style:none;
+    border-right-style:none;
+    border-top-style:none;
+}
+.form__card-info {
+    display: flex;
+    width: 70%;
+    white-space: nowrap;
+    justify-content:space-between;
+}
+.form__card-info__month__block {
+    width: 35%;
+}
+.form__card-info__year__block {
+    width: 35%;
+}
+.form__card-info__security__block {
+    width: 35%;
+}
+.form__card-info__month {
+    width:60%;
+    color:#C1F7D5;
+    background-color: #354463;
+    
+    border-bottom-style: 2px solid #C1F7D5;
+    border-left-style:none;
+    border-right-style:none;
+    border-top-style:none;
+}
+.form__card-info__year {
+    width:60%;
+    color:#C1F7D5;
+    background-color: #354463;
+    
+    border-bottom-style: 2px solid #C1F7D5;
+    border-left-style:none;
+    border-right-style:none;
+    border-top-style:none;
+}
+.form__card-info__security {
+    width:60%;
+    color:#C1F7D5;
+    background-color: #354463;
+    
+    border-bottom-style: 2px solid #C1F7D5;
+    border-left-style:none;
+    border-right-style:none;
+    border-top-style:none;
+}
+.form__button {
+    display: flex;
+    justify-content: space-between;
+}
+.form__link {
+   
+   color:#C1F7D5;
+}
+.processing-alert {
+    width: 70%;
+   
+}
+.form__process-button {
+    background-color: #C1F7D5;
+    color: #354463;
+    white-space: nowrap;
+    font:Bold 142%/108% Helvetica;
+    text-align: center;
+    outline: none;
+    border-radius:8em;
+    /* padding: .5em; */
+}
+.footer {
+    /* background-color: aqua; */
+    display: flex;
+    margin:2em;
+    margin-top:-2em;
+    padding: 2em 4em 4em 4em;
+    justify-content: space-between;
+}
+.footer__logo {
+    /* border:2px solid red; */
+    
+    font: Bold 132%/110% Helvetica;
+    width: 17%;
+    color: #354463;
+}
+.footer__contact {
+    /* border:2px solid red; */
+    width:10%;
+    color: #354463;
+}
+.footer__contact__heading {
+    font: bold 110%/87% Helvetica;
+    
+    
+    color: #354463;
+    width:110%;
+    /* border:2px solid red; */
+}
+.footer__contact__para {
+    
+    
+    font: Light 14%/20% Helvetica;
+    letter-spacing: -0.14px;
+}
+.climate-change {
+    color:#354463;
+    display: flex;
+    text-align: end;
+    font-family: flood-std,sans-serif;
+    font-weight: 400;
+     font-style: normal;
+     font-size: 200%;
+     /* border:2px solid red; */
+     width:20%;
+}
+ul {
+    list-style: none;
+    color: #C1F7D5;
+    padding: 0;
+    margin: 0;
+}
+a {
+    color: #354463;
+}
+
+  
+
+
+/* *****************tablet****************************** */
+@media screen and (max-width: 640px) {
+    .container {
+        flex-direction: column-reverse;
+        align-items: center;
+        margin:1em;
+        padding: 2em 1em;
+    }
+
+    .header__logo {
+        width:45%;
+    }
+    .container__quotes {
+        width: 80%;
+        /* border:2px solid red; */
+        text-align: center;
+    }
+    input,select {
+        color: #C1F7D5;
+        background-color: #354463;
+        width: 80%;
+        border-bottom-style: 2px solid #C1F7D5;
+        border-left-style:none;
+        border-right-style:none;
+        border-top-style:none;
+    }
+    .container__form {
+        width:100%;
+        padding: 1em;
+    }
+    .form__card-info {
+        width: 97%;
+    }
+    .processing-alert {
+        width:100%;
+        
+    }
+    /* .form__process-button {
+        width:60%;
+    } */
+    .footer {
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        margin:0;
+        padding: 1em;
+    }
+    .footer__logo {
+        font: Bold 132%/110% Helvetica;
+        width: 38%;
+    }
+    .footer__contact {
+        display: flex;
+        flex-direction: column;
+        width: 29%;
+        /* border: 3px solid red; */
+        justify-content: flex-start;
+        align-items: center;
+
+    }
+    .footer__contact__heading {
+        /* border: 3px solid red; */
+        text-align: center;
+    }
+    .footer__contact__para {
+        margin-top: -20%;
+    }
+    .climate-change {
+        /* border: 2px solid red; */
+        width:30%
+    }
+}
+
+/* ******************mobile********************* */
+@media screen and (max-width: 540px) {
+
+    .header__logo {
+        /* border:2px solid red;  */
+        width:55%; 
+    }
+    .container {
+        margin:.5em;
+        padding: .2em;
+    }
+    .container__quotes {
+        font-size: 200%;
+        width: 115%;
+    }
+    .container__form {
+        /* border:2px solid red; */
+        padding: .3em;
+        width: 100%;
+    }
+    /* .form__process-button {
+        width:80%;
+    } */
+    h2 {
+        font: Bold 28px/36px Helvetica;
+    }
+    .form__name__first {
+        width: 75%;
+    }
+    .form__name__last {
+        width: 75%;
+    }
+    .form__major-address__city {
+        width: 70%;
+    }
+    .form__major-address__zip {
+        width: 70%;
+    }
+    .form__major-address__state {
+        width: 75%;
+    }
+    .form__card-info {
+        width: 100%;
+    }
+    .form__button {
+        display: flex;
+        /* border:2px solid red; */
+        flex-direction: column-reverse;
+    }
+    .footer {
+        justify-content: space-between;
+    }
+    .form__link {
+        margin-top:10%;
+    }
+    .footer__logo {
+        width:45%;
+        /* border:2px solid red;  */
+    }
+    .footer__contact {
+        width: 40%;
+    }
+    .climate-change {
+        margin-left: auto;
+        /* border:2px solid red; */
+        width:75%
+    }
+    
+}
