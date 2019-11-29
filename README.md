@@ -1,1 +1,1 @@
-The greemn tree project
+A static website build with HTML, CSS, Flexbox.
